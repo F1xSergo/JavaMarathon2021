@@ -6,18 +6,16 @@ public class Task4 {
     public static void main(String[] args) {
         Scanner scaner = new Scanner(System.in);
         double x = scaner.nextDouble();
-
+        double y;
         if (x >= 5) {
-            double y = (x * x - 10) / (x + 7);
-            System.out.println(y);
-
+            y = (x * x - 10) / (x + 7);
         } else if (-3 < x && 5 > x) {
-            double y = (x + 3) * (x * x - 2);
-            System.out.println(y);
-
+            y = (x + 3) * (x * x - 2);
         } else {
-            double y = 420;
-            System.out.println(y);
+            y = 420;
         }
+
+        System.out.println(y);
     }
+
 }
