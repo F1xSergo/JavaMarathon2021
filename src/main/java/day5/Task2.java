@@ -9,9 +9,7 @@ package day5;
 public class Task2 {
     public static void main(String[] args) {
         MotorBike motorBike = new MotorBike(2,"blue","x5");
-        System.out.println(motorBike.getYear());
-        System.out.println(motorBike.getColor());
-        System.out.println(motorBike.getModel());
+        motorBike.console();
     }
 }
 class MotorBike {
@@ -35,5 +33,9 @@ class MotorBike {
 
     public String getModel() {
         return model;
+    }
+
+    public void console() {
+        System.out.println(year + ", " + color + ", " + model);
     }
 }
