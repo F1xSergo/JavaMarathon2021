@@ -31,7 +31,7 @@ public class Teacher {
         int min = 2;
         int max = 5;
         Random random = new Random();
-        String mark;
+
         int i = random.nextInt((4) + 2);
          switch (i) {
                 case 2:
