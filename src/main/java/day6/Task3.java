@@ -20,5 +20,8 @@ public class Task3 {
             Student stud = new Student("Gog");
 
             teacher.evaluate(stud);
+            // не понял как вместо числа вывести слово
+            //отлично
+        //Преподаватель Tob оценил студента с именем Gog по предмету music на оценку 5
     }
 }

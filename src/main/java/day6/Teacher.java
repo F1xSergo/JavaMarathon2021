@@ -31,15 +31,23 @@ public class Teacher {
         int min = 2;
         int max = 5;
         Random random = new Random();
-        int i = random.nextInt(((max - min) + 1) + max);
-        String mark = switch (i) {
-            case 2 -> "неудовлетворительно";
-            case 3 -> "удовлетворительно";
-            case 4 -> "хорошо";
-            case 5 -> "отлично";
-            default -> "";
-        };
+        String mark;
+        int i = random.nextInt((4) + 2);
+         switch (i) {
+                case 2:
+                    System.out.println("неудовлетворительно");
+                    break;
+                case 3:
+                    System.out.println("удовлетворительно");
+                    break;
+                case 4:
+                    System.out.println("хорошо");
+                    break;
+                case 5:
+                    System.out.println("отлично");
+                    break;
+            }
         System.out.println("Преподаватель " + name + " оценил студента с именем " + student.getName() +
-                " по предмету " + lesson + " на оценку " + mark);
+                " по предмету " + lesson + " на оценку " + i);
     }
 }
