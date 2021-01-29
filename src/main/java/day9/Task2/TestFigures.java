@@ -22,26 +22,22 @@ public class TestFigures {
     public static double calculateRedPerimeter(Figure[] figures) {
         double summ = 0;
         for (Figure figure : figures) {
-            if (figure.getColor().equals("Red")) {
-                summ = figure.perimeter() + summ;
-            }
+            if (figure.getColor().equals("Red"))
+                summ += figure.perimeter();
         }
-        return summ ;
+        return summ;
     }
 
 
-        public static double calculateRedArea (Figure[]figures){
-            double summ = 0;
-            for (Figure figure : figures) {
-                if (figure.getColor().equals("Red")) {
-                    figure.perimeter();
-                    summ = figure.area() + summ;
-                }
-
-            }
-            return summ;
+    public static double calculateRedArea(Figure[] figures) {
+        double summ = 0;
+        for (Figure figure : figures) {
+            if (figure.getColor().equals("Red"))
+                summ += figure.area();
         }
+        return summ;
     }
+}
 
 
 
