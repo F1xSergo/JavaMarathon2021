@@ -48,9 +48,9 @@ public class MusicBand {
         System.out.println(this.members);
     }
 
-    public List<MusicBand> getMembers(List<MusicBand> people) {
+    public List<MusicBand> getMembers(List<MusicBand> members) {
 
-        return people;
+        return members;
     }
 
     @Override

@@ -18,16 +18,16 @@ public class Task4 {
     public static void main(java.lang.String[] args) {
 
         List<String> string1 = new ArrayList<>();
-        string1.add(new String("BOB"));
-        string1.add(new String("TOM"));
-        string1.add(new String("Serg"));
+        string1.add("BOB");
+        string1.add("TOM");
+        string1.add("Serg");
 
         MusicBand mb1 = new MusicBand("Band1", 1980, string1);
 
         List<String> string2 = new ArrayList<>();
-        string2.add(new String("Sos"));
-        string2.add(new String("Nof"));
-        string2.add(new String("Nik"));
+        string2.add("Sos");
+        string2.add("Nof");
+        string2.add("Nik");
 
         MusicBand mb2 = new MusicBand("Band1", 2000, string2);
 
