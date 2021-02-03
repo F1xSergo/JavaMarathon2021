@@ -1,41 +1,27 @@
 package day14;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-
 public class Human {
     public String name = "";
-    public int age = 0;
+    public int year = 0;
 
-    public Human(List<String> list) {
-    }
-
-
-    public String getName() {
-        return name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setName(String name) {
+    public Human(String name, int year) {
         this.name = name;
+        this.year = year;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
     }
 
     @Override
     public String toString() {
         return "{" +
                 "name='" + name + '\'' +
-                ", age=" + age +
+                ", year=" + year +
                 '}';
     }
 
