@@ -27,6 +27,7 @@ public class Task2 {
         System.out.println(parseFileToStringList(file));
     }
 
+
     public static List<String> parseFileToStringList(File file) {
         List<String> list = new ArrayList<>();
         try {
