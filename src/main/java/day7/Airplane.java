@@ -1,6 +1,6 @@
 package day7;
 
-import jdk.swing.interop.SwingInterOpUtils;
+
 
 public class Airplane {
     String producer;

@@ -1,8 +1,7 @@
 package day3;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
-import java.util.spi.AbstractResourceBundleProvider;
+
 
 public class Task2 {
     public static void main(String[] args) {
